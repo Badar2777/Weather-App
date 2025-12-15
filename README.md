@@ -1,16 +1,84 @@
-# React + Vite
+🚀 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔍 Search by City – Get current weather details by entering a city name
 
-Currently, two official plugins are available:
+📍 Auto Location Detection – Fetch weather using the browser’s geolocation API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⏳ Loading State Handling – Visual feedback while data is being fetched
 
-## React Compiler
+❌ Error Handling – User-friendly messages for invalid city names or API failures
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Success State UI – Displays temperature, humidity, wind speed, and conditions
 
-## Expanding the ESLint configuration
+📅 5-Day Forecast – Clean daily forecast overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌙 Day / Night Theme – Automatically adapts based on local time
+
+📱 Responsive Design – Optimized for mobile and desktop devices
+
+🛠️ Tech Stack
+
+React (Vite)
+
+JavaScript (ES6+)
+
+Tailwind CSS
+
+OpenWeatherMap API
+
+Browser Geolocation API
+
+📡 APIs Used
+
+OpenWeatherMap – Current Weather API
+
+OpenWeatherMap – 5-Day Forecast API
+
+📂 Project Purpose
+
+This project was built to practice and demonstrate:
+
+API data fetching and error handling
+
+State management in React
+
+Conditional rendering (loading, error, success states)
+
+Building modern, user-friendly frontend dashboards
+
+📸 Screenshots
+
+Add screenshots showing:
+
+Loading state
+
+Error state
+
+Successful weather fetch
+
+▶️ Demo & Explanation
+
+A short demo video with AI voiceover explains:
+
+Code structure
+
+API integration
+
+Loading and error handling
+
+UI design decisions
+
+📌 Setup Instructions
+git clone https://github.com/your-username/weather-info-dashboard
+cd weather-info-dashboard
+npm install
+npm run dev
+
+
+Create a .env file and add:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+📄 License
+
+This project is for educational purposes.
